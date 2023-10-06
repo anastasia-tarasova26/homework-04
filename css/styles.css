@@ -434,6 +434,8 @@ h3 {
 .footer{
   padding: 100px 0 ;
   background-color:#2e2f42;
+  margin: 0;
+  
 }
 
 .footer-web{
@@ -447,6 +449,7 @@ h3 {
     color:#4d5ae5; 
     display: inline-block;
     margin-bottom: 16px;
+    
 }
 
 .footer-text{
@@ -464,19 +467,20 @@ h3 {
 }
 
 .footer-container{
-  margin-right: 120px;
-  padding-left: 156px;
+  margin-right: 150px;
+  padding-left: 176px;
 }
 
 
 .footer-change-container{
 display: flex; 
 align-items: baseline;
-
 }
+
 .social-media-container-footer{
   margin-top: 0;
   gap: 16px;
+  
 }
 
 .social-media{
@@ -518,5 +522,5 @@ align-items: baseline;
 
 .footer-ellipse-link:hover, 
 .footer-ellipse-link:focus{
-  background-color: #31a8d0;
+  background-color:  #31d0aa;
 }
