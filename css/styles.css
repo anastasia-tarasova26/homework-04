@@ -1,8 +1,15 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
+  ::after {
+    box-sizing: border-box;
+    content: '';
+    position: absolute; 
+    left: 0; 
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf; 
+    border-radius: 2px;
+  }
+
 
 body{
     font-family: "Raleway", sans-serif;
@@ -565,5 +572,11 @@ align-items: baseline;
 
 .footer-ellipse-link:hover, 
 .footer-ellipse-link:focus{
+  background-color: #31d0aa;
+}
+
+.footer-web:focus,
+.footer-web::after
+{
   background-color: #31d0aa;
 }
