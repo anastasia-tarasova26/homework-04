@@ -586,9 +586,9 @@ align-items: baseline;
  
 .footer-ellipse-link:hover{
   background-color: #31d0aa;
-}
-
-
-.footer-ellipse-link:focus{
-  background-color: #31d0aa;
-}
+  }
+  
+  .footer-ellipse-link:focus{
+   background-color: #31d0aa;
+  }
+  
